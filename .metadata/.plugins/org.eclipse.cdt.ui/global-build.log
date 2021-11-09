@@ -1,0 +1,40 @@
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+22:28:33 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:22:2: warning: implicit declaration of function 'setbuff'; did you mean 'setbuf'? [-Wimplicit-function-declaration]
+  setbuff(stdout,NULL);
+  ^~~~~~~
+  setbuf
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\getIO.o" "..\\src\\getIO.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\getIO.o" 
+src\TP_2.o: In function `main':
+C:\Users\Principal\Desktop\TPProgramacion\tp_laboratorio_2\TP_2\Debug/../src/TP_2.c:22: undefined reference to `setbuff'
+collect2.exe: error: ld returned 1 exit status
+22:30:10 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\getIO.o" 
+22:30:18 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:22:2: warning: implicit declaration of function 'setbuff'; did you mean 'setbuf'? [-Wimplicit-function-declaration]
+  setbuff(stdout,NULL);
+  ^~~~~~~
+  setbuf
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\getIO.o" 
+src\TP_2.o: In function `main':
+C:\Users\Principal\Desktop\TPProgramacion\tp_laboratorio_2\TP_2\Debug/../src/TP_2.c:22: undefined reference to `setbuff'
+collect2.exe: error: ld returned 1 exit status
+22:30:48 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\getIO.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
